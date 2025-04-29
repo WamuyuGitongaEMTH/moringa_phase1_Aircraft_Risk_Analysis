@@ -1,0 +1,23 @@
+# Ignore system and temp files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large raw datasets or processed files
+data/*.zip
+data/*.bak
+
+# Ignore Tableau packaged files (if any)
+*.twbx
